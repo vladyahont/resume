@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Моя страница, на которой указана общая информация обо мне"
+    />
+    <meta
+      name="keywords"
+      content="Влад Яхонт, моя жизнь, моя история, мои увлечения"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img class="img" src="IMG_2901.jpeg" alt="это Я" />
+        <div class="info-text">
+          <h1>Vlad Yahont</h1>
+          <p>
+            Всем привет на этой странице содержится основная информация обо
+            <strong>мне</strong> и о <strong>моей жизни</strong>
+          </p>
+          <p>
+            В данный периуд жизни
+            <em>ищу себя, изучаю програмирование и слежу за своим здоровьем</em>
+          </p>
+          <h4>Ссылки на мои социальные сети:</h4>
+          <div class="link">
+            <a
+              href="https://instagram.com/vlad_yahont?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              class="bg-1"
+              >[ instagram ]</a
+            >
+            <a href="https://t.me/vlad_yahont" target="_blank" class="bg-2"
+              >[ telegram ]</a
+            >
+            <a href="https://vk.com/id137776434" target="_blank" class="bg-3"
+              >[ vk ]</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="card bg-1">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Спорт</li>
+          <li>Путешествия</li>
+          <li>ММА</li>
+          <li>Юмор</li>
+        </ol>
+      </div>
+      <div class="card bg-2">
+        <h2>Места работы</h2>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Местро работы</th>
+              <th>Должность</th>
+              <th>Период работы</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Кальянная Мята</td>
+              <td>Администратор</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td>Такси</td>
+              <td>Водитель</td>
+              <td>2019-2020</td>
+            </tr>
+            <tr>
+              <td>Магазин зоотоваров</td>
+              <td>Курьер</td>
+              <td>2020-2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card bg-3">
+        <h2>Курты которые я прошел</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://youtube.com" target="_blank"
+              >Несколько видеоуроков на YouTobe</a
+            >
+          </li>
+          <li>
+            <a href="https://main.wayup.in/library" target="_blank"
+              >Прошел курс по верстке на WayUp</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://lk.result.school/teach/control/stream/view/id/560546100"
+              target="_blank"
+              >А так же курс HTNL & CSS на Result.School</a
+            >
+          </li>
+        </ul>
+      </div>
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="massege">Ваше сообщение</label>
+          <br />
+          <textarea
+            id="massege"
+            cols="20"
+            rows="5"
+            placeholder="Введите сообщение"
+          ></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить" />
+      </form>
+    </div>
+  </body>
+</html>
